@@ -27,4 +27,5 @@ Game tebak kata Hangman memiliki beberapa menu berikut.
 
    Menu ini akan menampilkan info terkait pemain yang sedang aktif, seperti skor tertinggi.
 5. Keluar
+   
    Menu ini digunakan untuk keluar dari program game tebak kata Hangman.
