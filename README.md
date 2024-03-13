@@ -6,7 +6,7 @@ Berikut merupakan spesifikasi dari game tebak kata Hangman yang dibuat.
 - Pemain yang ingin memainkan game harus terlebih dahulu mendaftar. Setiap pemain harus memiliki username yang unik.
 - Kata yang harus ditebak pemain akan dibangkitkan secara acak oleh program berdasarkan suatu daftar kata yang telah terdefinisi.
 - Pemain mendapat informasi berupa panjang kata, kemudian pemain harus memberikan tebakan huruf per huruf yang menyusun kata. Untuk setiap huruf yang ditebak, jika huruf merupakan bagian dari kata, huruf ditampilkan pada posisi yang sesuai, sementara jika huruf bukan merupakan bagian dari kata, Hangman secara bertahap akan ditampilkan untuk setiap kesalahan baru.
-- Dalam proses menebak kata, pemain mendapatkan skor dengan ketentuan (100 - n^2), dimana n adalah jumlah tebakan salah. Apabila jumlah tebakan salah telah mencapai total 8, maka pemain mendapat skor 0 dan gambar Hangman akan terbentuk sempurna.
+- Dalam proses menebak kata, pemain mendapatkan skor dengan ketentuan _(100 - n^2)_, dimana _n_ adalah jumlah tebakan salah. Apabila jumlah tebakan salah telah mencapai total 8, maka pemain mendapat skor 0 dan gambar Hangman akan terbentuk sempurna.
 - Untuk seorang pemain, game ini dapat diulang sampai pemain menyatakan ingin berhenti. Skor yang tersimpan adalah skor tertinggi yang pernah diperoleh oleh pemain tersebut.
 - Informasi Top Ten, yaitu daftar 10 pemain dengan skor tertinggi, dapat ditampilkan.
 - Untuk setiap pemain, riwayat kata yang pernah ditebak disimpan, sehingga ketika program membangkitkan kata yang harus ditebak, maka kata tersebut tidak boleh sama dengan kata yang sudah pernah ditebak sebelumnya, kecuali apabila seluruh kata dalam daftar kata sudah pernah ditebak oleh pemain.
@@ -16,7 +16,7 @@ Berikut merupakan spesifikasi dari game tebak kata Hangman yang dibuat.
 Game tebak kata Hangman memiliki beberapa menu berikut.
 1. Login / Register / Change User
 
-   Menu ini digunakan untuk memasukkan nama pemain lama atau melakukan registrasi pemain baru dengan meminta input berupa username pemain. Apabila pemain tercatat sedang memainkan game, maka menu ini dapat digunakan untuk mengubah pemain (_change user_), baik menjadi pemain dengan username baru maupun username lama.
+   Menu ini digunakan untuk memasukkan nama pemain lama atau melakukan registrasi pemain baru dengan meminta _input_ berupa _username_ pemain. Apabila pemain tercatat sedang memainkan game, maka menu ini dapat digunakan untuk mengubah pemain (_change user_), baik menjadi pemain dengan _username_ baru maupun _username_ lama.
 2. Start Game
 
    Menu ini digunakan untuk memulai game tebak kata Hangman.
